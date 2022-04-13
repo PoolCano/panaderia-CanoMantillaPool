@@ -196,9 +196,6 @@ color: white;
     width: 100%;
 }
 
-.productoInformacion{
-
-}
 
 .productoNombre{
     font-size: 25px;
@@ -216,3 +213,15 @@ color: white;
 }
 
 /*Continuara...*/
+
+.transicion{
+    transition: width 2s, height 1s;
+}
+
+.transicion:hover {
+    width: 500px;
+}
+
+.mover{
+    transform: translateY(-500px);
+}
