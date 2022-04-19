@@ -196,6 +196,11 @@ color: white;
     width: 100%;
 }
 
+.productoInformacion{
+
+
+}
+
 
 .productoNombre{
     font-size: 25px;
@@ -212,16 +217,42 @@ color: white;
     text-align: center;
 }
 
-/*Continuara...*/
+/*Pagina Detalle Producto...*/
 
-.transicion{
-    transition: width 2s, height 1s;
+@media (min-width:768px ) {
+    .pastel{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 20px;
+    }
+
 }
 
-.transicion:hover {
-    width: 500px;
+.pastelFormulario{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr) ;
+    gap: 20px;
 }
 
-.mover{
-    transform: translateY(-500px);
+
+.pastelFormularioCampo{
+    border-color: orange;
+    border-width: 10px;
+    border-style: solid;
+    background-color: transparent;
+    padding: 10px;
+    appearance: none;
+}
+
+.pastelFormularioSubmit{
+    background-color: orange;
+    border: none;
+    font-size: 20px;
+    padding: 20px;
+    transition: background-color .3s ease; /*animacion*/
+    grid-column: 1 / 3;
+}
+.pastelFormularioSubmit:hover{
+    cursor: pointer;
+    background-color: orangered;
 }
