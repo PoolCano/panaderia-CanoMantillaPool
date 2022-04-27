@@ -1,0 +1,22 @@
+@media (min-width: 768px) {
+    .principal-nav{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}
+
+/*grid Nosotros*/
+@media (min-width: 768px) {
+    .nosotros{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        column-gap: 30px;
+        text-align: center;
+    }
+}
+
+@media (min-width: 768px ) {
+    .grid{
+        grid-template-columns: repeat(3, 1fr);
+    } 
+}

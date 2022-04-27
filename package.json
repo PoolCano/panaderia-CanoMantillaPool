@@ -1,0 +1,19 @@
+{
+  "name": "proyectoweb-sass",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PoolCano/repositorioWeb.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PoolCano/repositorioWeb/issues"
+  },
+  "homepage": "https://github.com/PoolCano/repositorioWeb#readme"
+}
