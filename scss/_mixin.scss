@@ -1,0 +1,11 @@
+@mixin dimensionParrafo($width, $height, $font){
+    width: $width;
+    height: $height;
+    font-size: $font;
+    font-weight: bold;
+}
+
+.division{
+    @include dimensionParrafo(100%, 20%, 20px)
+    
+}

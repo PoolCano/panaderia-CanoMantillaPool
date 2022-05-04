@@ -1,0 +1,13 @@
+
+$mapa: (
+    noticia1: red,
+    noticia2: green,
+    noticia3: white,
+    noticia4: yellow
+);
+
+@each $noticia, $fondoColor in $mapa {
+	.btn-#{$noticia} {
+	background-color: $fondoColor;
+	}
+}

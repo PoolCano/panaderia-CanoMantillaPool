@@ -1,0 +1,14 @@
+@import "variables";
+
+.parrafo{
+    font-size: 20px;
+    color: black;
+    text-decoration: overline;
+    border: 2px solid $colorParrafo;
+    background-color: rgb(255, 99, 71);
+}
+
+.parrafo--extend{
+    @extend .parrafo;
+    color: white;
+}
